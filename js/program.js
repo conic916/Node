@@ -6,7 +6,7 @@ process.stdin.setEncoding('utf-8');
 //nasłuchiwanie na zdarzenia odczytu :
 //na zdarzenie (.on) odczytu (readable) wykonujemy funkcje :
 
-process.stdin.on('readable', function() {
+process.stdin.on('readable', function () {
 
     //proste echo, czyli wyświetlamy to co wpisaliśmy w aplikację :
 
